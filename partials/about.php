@@ -17,10 +17,10 @@
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<h1 class="h2" style="margin-top: 0;">What We Do</h1>
 				<?php $divider(); ?>
-				<p style="margin-top: 2.2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box. Execute cloud computing to, consequently, go viral. Utilise below the
+				<p class="">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box. Execute cloud computing to, consequently, go viral. Utilise below the
 					fold and then re-target key demographics.</p>
-				<p style="margin-top: 2.2em;">Inform user experience to, consequently, funnel users. Amplifying vertical integration yet be CMSable. Demonstrating customer journeys but target the low hanging fruit.</p>
-				<p style="margin-top: 2.2em;"><a class="button-primary" href="#">Learn More</a></p>
+				<p class="">Inform user experience to, consequently, funnel users. Amplifying vertical integration yet be CMSable. Demonstrating customer journeys but target the low hanging fruit.</p>
+				<p class=""><a class="button-primary" href="#">Learn More</a></p>
 			</div>
 		</div>
 	</div>
@@ -52,8 +52,8 @@
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<h2 style="margin-top: 0;">Why Choose Us</h2>
 				<?php $divider(); ?>
-				<p style="margin-top: 2.2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box.</p>
-				<p style="margin-top: 2.2em;">Execute cloud computing to, consequently, go viral. Utilise below the fold and then re-target key demographics.</p>
+				<p class="">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box.</p>
+				<p class="">Execute cloud computing to, consequently, go viral. Utilise below the fold and then re-target key demographics.</p>
 				<div class="row" style="margin-top: 2.2em;">
 					<div class="col-md-6 col-xs-12 col-sm-12">
 						<h4 class="h5 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-bottom: 2em; margin-top: 0"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i>Transformation</h4>
@@ -119,13 +119,13 @@
 </div>
 <div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
 	<div class="container">
-		<div class="row row-spacing-lg-top row-spacing-sm-bottom">
+		<div class="row row-spacing-lg-top">
 			<div class="col-md-6 col-sm-6 col-xs-12">
 				<h2 style="margin-top: 0;">Team</h2>
 				<?php $divider(); ?>
 			</div>
 			<div class="col-md-6 col-xs-12 col-sm-6">
-				<p style="margin-top: 2.2em;">Target user stories so that we maximise share of voice. Grow cloud computing with the aim to take this offline. Lead integrated tech stacks and above all, target the low hanging fruit.</p>
+				<p class="">Target user stories so that we maximise share of voice. Grow cloud computing with the aim to take this offline. Lead integrated tech stacks and above all, target the low hanging fruit.</p>
 			</div>
 		</div>
 		<div class="row row-spacing-lg-bottom">
