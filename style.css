@@ -14,6 +14,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, rtl-language-
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
-.entry-title:first-letter {
+.entry-title:first-letter,
+h1.page-title:first-letter {
 	font-size: 200%;
 }

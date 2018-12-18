@@ -7,155 +7,45 @@
  * @since 2.0.0
  */
 ?>
+
 <div class="boldgrid-section">
 	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-5 col-xs-12 col-sm-5 align-column-center text-center">
-				<img class="bg-img bg-img-3" src="<?php $image_path( 'about-1.jpg' ) ?>">
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12"></div>
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h1 class="h2" style="margin-top: 0;">What We Do</h1>
+		<div class="row">
+			<div class="col-md-5 col-margin-bottom col-xs-12 col-sm-12">
+				<h2>Helping Your Business Build Success</h2>
+				<h4>Develop Your Path to Greatness</h4>
 				<?php $divider(); ?>
-				<p style="margin-bottom: 2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box. Execute cloud computing to, consequently, go viral. Utilise below the
-					fold and then re-target key demographics.</p>
-				<p style="margin-bottom: 2em;">Inform user experience to, consequently, funnel users. Amplifying vertical integration yet be CMSable. Demonstrating customer journeys but target the low hanging fruit.</p>
-				<p style="margin-bottom: 2em;"><a class="button-primary" href="#">Learn More</a></p>
+				<p class="">At Amazing Business Consulting, our business is helping your business succeed. Whether you need help with business planning, need back office support or need to change up your game to higher-level executive action, we've got programs and services you need to make your business rock.</p>
+				<p class="">Founded by Bradley Jessup in 1995, we've had over 20 years' experience in helping entrepreneurs develop success in their business and personal lives. Our focus is finding areas where your business could be more productive and successful and then helping you develop the path to get it there.</p>
+				<p class="" style="margin-top: 2em;"><a class="button-primary" href="#">Customer Testimonials</a></p>
 			</div>
-		</div>
-	</div>
-</div>
-<div class="boldgrid-section" style="color: #fff; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'about-2.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'about-2.jpg' ) ?>" data-bg-overlaycolor="rgba(0, 0, 0, 0.5)">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-4 col-xs-12 col-sm-6 color4-background-color color-4-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '005-value.png' ) ?>" width="61" height="48"></p>
-				<h3 class="h4">Qualified Pros</h3>
-				<p class="">Synchronise branding to disrupt the balance.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 col-sm-6 color3-background-color color-3-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '006-development.png' ) ?>" width="61" height="48"></p>
-				<h3 class="h4">Performance</h3>
-				<p class="">Repurpose big data and possibly gain traction.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 col-sm-12 color4-background-color color-4-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '007-analysis.png' ) ?>" width="48" height="48"></p>
-				<h3 class="h4">Years of Experience</h3>
-				<p class="">Leverage bleeding edge and be on brand.</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h2 style="margin-top: 0;">Why Choose Us</h2>
-				<?php $divider(); ?>
-				<p style="margin-bottom: 2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box.</p>
-				<p style="margin-bottom: 2em;">Execute cloud computing to, consequently, go viral. Utilise below the fold and then re-target key demographics.</p>
-				<div class="row">
-					<div class="col-md-6 col-xs-12 col-sm-12">
-						<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-bottom: 2em; margin-top: 0"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i>Transformation</p>
-						<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="margin: 2em 0;"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i>Operations &amp; Robotics</p>
-					</div>
-					<div class="col-md-6 col-xs-12 col-sm-12">
-						<div>
-							<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="margin-top: 0"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"> </i>Information Technology</p>
-							<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" style="margin: 2em 0;"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"> </i>Unlimited Possibilites</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12"></div>
-			<div class="col-md-5 col-xs-12 col-sm-5 text-center">
-				<img class="bg-img bg-img-3" src="<?php $image_path( 'about-3.jpg' ) ?>">
+			<div class="col-md-1 col-sm-12 col-xs-12"></div>
+			<div class="col-md-6 col-margin-bottom text-center col-xs-12 col-sm-12">
+				<p class=""><img class="aligncenter" src="https://via.placeholder.com/600x450"></p>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="boldgrid-section">
 	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="boldgrid-wrap-row boldgrid-slider" data-config='{"arrows":false,"autoplay":true,"autoplaySpeed":"8","dots":true,"infinite":true,"bgOptions":{"arrowsPos":"standard","arrowsOverlay":true,"arrowsBgColor":"1","arrowsIcon":"angle","arrowsSize":"30","dotsPos":"bottom","dotsOverlay":false,"dotsColor":"1","dotsSize":"50"},"colors":{"arrowsBG":{"type":"class","value":"1","text":""},"dotsColor":{"type":"class","value":"1","text":""}}}'>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4.jpg' ) ?>"></p>
-						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build and retain ROI. Taking dark social to in turn think outside the box.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Starr Hudson</p>
-							<p style="text-align: right;" class="color1-color">Chief Executive Officer | Box Em Up</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4b.jpg' ) ?>"></p>
-						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Engaging customer experience so that as an end result, we be CMSable. Leverage below the fold and finally gain traction. Generating bleeding edge and creating actionable insights.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Teresa Oliver</p>
-							<p style="text-align: right;" class="color1-color">Brand Expert | Mantell Design</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4c.jpg' ) ?>"></p>
-						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Generating best in class in order to improve overall outcomes. Inform outside the box thinking and finally target the low hanging fruit. Repurose big data and possibly gain traction.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Leslie Boone</p>
-							<p style="text-align: right;" class="color1-color">Support Staff | Gerwyn Financial</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
-	<div class="container">
-		<div class="row row-spacing-lg-top">
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h2 style="margin-top: 0;">Team</h2>
+		<div class="row" style="padding-top: 70px; padding-bottom: 70px;">
+			<div class="col-md-4 text-center col-xs-12 col-sm-12">
+				<p class=""><img class="aligncenter" src="https://via.placeholder.com/360x200"></p>
 				<?php $divider(); ?>
+				<h2>Professional Services</h2>
+				<p class="">We offer a variety of professional services that help you achieve your business goals. Do you need help with building a comprehensive business plan to get financing? What about one-on-one mentoring to take your career to the next level? We've got that.</p>
 			</div>
-			<div class="col-md-6 col-xs-12 col-sm-6 align-column-center">
-				<p class="" style="margin-bottom: 2em;">Target user stories so that we maximise share of voice. Grow cloud computing with the aim to take this offline. Lead integrated tech stacks and above all, target the low hanging fruit.</p>
+			<div class="col-md-4 text-center col-xs-12 col-sm-12">
+				<p class=""><img class="aligncenter" src="https://via.placeholder.com/360x200"></p>
+				<?php $divider(); ?>
+				<h2>Comprehensive Programs</h2>
+				<p class="">Our dynamic programs cover businesses in a variety of stages and sizes. Whether you're just starting out, have too many hats as a SME owner, need high-level executive mentoring or need marketing tips that fit your schedule, our programs fit the bill.</p>
 			</div>
-		</div>
-		<div class="row row-spacing-lg-bottom">
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-5.jpg' ) ?>"></p>
-					<h4>Nathan Counsel</h4>
-					<p class="color1-color">Chief Executive Officer</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-6.jpg' ) ?>"></p>
-					<h4>Morten Iverson</h4>
-					<p class="color1-color">Chief Financial Officer</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-7.jpg' ) ?>"></p>
-					<h4>Julie Grave</h4>
-					<p class="color1-color">Technology Director</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-8.jpg' ) ?>"></p>
-					<h4>Hans Paulsen</h4>
-					<p class="color1-color">Operations Director</p>
-				</div>
+			<div class="col-md-4 text-center col-xs-12 col-sm-12">
+				<p class=""><img class="aligncenter" src="https://via.placeholder.com/360x200"></p>
+				<?php $divider(); ?>
+				<h2>Amazing Results</h2>
+				<p class="">Where do we deliver the most? In our client's results. We've worked with companies from single-person startups to Fortune 500 executives and everything in between. We provide a guarantee that if you follow our plan and don't see amazing results, you don't pay.</p>
 			</div>
 		</div>
 	</div>

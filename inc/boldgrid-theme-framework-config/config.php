@@ -131,68 +131,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			),
 		);
 
-		// Create the custom image attachments used as post thumbnails for pages.
-		$config['starter-content']['attachments'] = array(
-
-			// Pages.
-			'contact-featured' => array(
-				'post_title' => _x( 'Contact Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/contact-featured.jpg',
-			),
-			'about-featured' => array(
-				'post_title' => _x( 'About Us Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/about-featured.jpg',
-			),
-			'services-featured' => array(
-				'post_title' => _x( 'Services Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/services-featured.jpg',
-			),
-			'blog-featured' => array(
-				'post_title' => _x( 'Blog Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/blog-featured.jpg',
-			),
-
-			// Blog Posts Home.
-			'artificial-intelligence-featured' => array(
-				'post_title' => _x( 'Artificial Intelligence Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/artificial-intelligence.jpg',
-			),
-			'blockchain-featured' => array(
-				'post_title' => _x( 'Blockchain Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/blockchain.jpg',
-			),
-			'cloud-expert-featured' => array(
-				'post_title' => _x( 'The Cloud Expert Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/cloud-expert.jpg',
-			),
-
-			// Blog Posts Services.
-			'advanced-analytics-featured' => array(
-				'post_title' => _x( 'Advanced Analytics Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/advanced-analytics.jpg',
-			),
-			'corporate-finance-featured' => array(
-				'post_title' => _x( 'Corporate Finance Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/corporate-finance.jpg',
-			),
-			'strategy-featured' => array(
-				'post_title' => _x( 'Strategy & Marketing Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/strategy.jpg',
-			),
-			'digital-featured' => array(
-				'post_title' => _x( 'Digital Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/digital.jpg',
-			),
-			'information-technology-featured' => array(
-				'post_title' => _x( 'Information Technology Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/information-technology.jpg',
-			),
-			'mergers-featured' => array(
-				'post_title' => _x( 'Mergers & Aquisitions Featured', 'Theme starter content', 'crio' ),
-				'file' => 'images/mergers.jpg',
-			),
-		);
-
 		$config['starter-content']['plugins'] = array(
 			array(
 				'name'      => 'BoldGrid Post and Page Builder',
@@ -233,19 +171,11 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			'about' => array(
 				'post_type' => 'page',
 				'post_title' => _x( 'About Us', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{about-featured}}',
 				'post_content' => bgtfw_get_contents( 'about.php' ),
-			),
-			'services' => array(
-				'post_type' => 'page',
-				'post_title' => _x( 'Services', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{services-featured}}',
-				'post_content' => bgtfw_get_contents( 'services.php' ),
 			),
 			'contact' => array(
 				'post_type' => 'page',
 				'post_title' => _x( 'Contact Us', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{contact-featured}}',
 				'post_content' => bgtfw_get_contents( 'contact.php' ),
 			),
 
@@ -253,19 +183,16 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			'artificial-intelligence' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Artificial Intelligence', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{artificial-intelligence-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'blockchain' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Scalable Solutions', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{blockchain-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'cloud-expert' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'The Cloud Expert', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{cloud-expert-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 
@@ -273,44 +200,37 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			'mergers' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Mergers & Aquisitions', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{mergers-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'information-technology' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Information Technology', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{information-technology-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'digital' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Digital', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{digital-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'strategy' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Strategy & Marketing', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{strategy-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'corporate-finance' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Corporate Finance', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{corporate-finance-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 			'advanced-analytics' => array(
 				'post_type' => 'post',
 				'post_title' => _x( 'Advanced Analytics', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{advanced-analytics-featured}}',
 				'post_content' => bgtfw_get_contents( 'blog.php' ),
 			),
 
 			'blog' => array(
 				'post_type' => 'page',
 				'post_title' => _x( 'Blog', 'Theme starter content', 'crio' ),
-				'thumbnail' => '{{blog-featured}}',
 			),
 		);
 
@@ -357,10 +277,10 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_global_title_content_container']['default'] = 'container';
 
 		// Set background color of page title containers.
-		$config['customizer']['controls']['bgtfw_global_title_background_color']['default'] = 'color-2';
+		$config['customizer']['controls']['bgtfw_global_title_background_color']['default'] = 'color-neutral';
 
 		// Set the default global page title color.
-		$config['customizer']['controls']['bgtfw_global_title_color']['default'] = 'color-4';
+		$config['customizer']['controls']['bgtfw_global_title_color']['default'] = 'color-2';
 
 		// Set the text alignment of the page titles globally.
 		$config['customizer']['controls']['bgtfw_global_title_alignment']['default'] = 'left';
@@ -437,10 +357,10 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_pages_blog_blog_page_layout_content']['default'] = 'excerpt';
 
 		// Set the blog excerpt length.
-		$config['customizer']['controls']['bgtfw_pages_blog_blog_page_layout_excerpt_length']['default'] = 30;
+		$config['customizer']['controls']['bgtfw_pages_blog_blog_page_layout_excerpt_length']['default'] = 75;
 
 		// Display option for featured images on blog/archive lists.
-		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_display']['default'] = 'show';
+		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_display']['default'] = 'hide';
 
 		// Featured image in post list position.
 		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_position']['default'] = 'above';
@@ -452,13 +372,19 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_width']['default'] = 100;
 
 		// Post list title color.
-		$config['customizer']['controls']['bgtfw_blog_post_header_title_color']['default'] = 'color-2';
+		$config['customizer']['controls']['bgtfw_blog_post_header_title_color']['default'] = 'color-neutral';
+
+		// Post list post header background color.
+		$config['customizer']['controls']['bgtfw_blog_header_background_color']['default'] = 'color-2';
+
+		// Post list post content background color.
+		$config['customizer']['controls']['bgtfw_blog_post_background_color']['default'] = 'color-3';		
 
 		// Post list read more link text.
 		$config['customizer']['controls']['bgtfw_blog_post_readmore_text']['default'] = esc_html__( 'Read More', 'bgtfw' );
 
 		// Post list read more link style.
-		$config['customizer']['controls']['bgtfw_blog_post_readmore_type']['default'] = 'btn button-secondary';
+		$config['customizer']['controls']['bgtfw_blog_post_readmore_type']['default'] = 'btn button-primary';
 
 		// Post list read more link alignment.
 		$config['customizer']['controls']['bgtfw_blog_post_readmore_position']['default'] = 'left';
@@ -515,11 +441,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 					'object' => 'page',
 					'object_id' => '{{about}}',
 				),
-				'page_services' => array(
-					'type' => 'post_type',
-					'object' => 'page',
-					'object_id' => '{{services}}',
-				),
 				'page_blog',
 				'page_contact' => array(
 					'type' => 'post_type',
@@ -568,6 +489,9 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		// Primary Menu - Active link color.
 		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_main']['default'] = 'color-neutral';
 
+		// Acive Menu Item Border Color.
+		$config['customizer']['controls']['bgtfw_menu_items_active_link_border_color_main']['default'] = 'color-1';
+
 		// Primary Menu - Hover color.
 		$config['customizer']['controls']['bgtfw_menu_items_hover_color_main']['default'] = 'color-1';
 
@@ -612,6 +536,21 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		// This content set uses pages set to full width.
 		$config['starter-content']['theme_mods']['bgtfw_pages_container'] = '';
 
+		$config['customizer']['controls']['bgtfw_menu_items_active_link_border_main']['default'] = [
+			[
+				'media' => [ 'base' ],
+				'unit' => 'px',
+				'isLinked' => false,
+				'type' => 'solid',
+				'values' => [
+					'top' => 0,
+					'left' => 0,
+					'right' => 0,
+					'bottom' => 4,
+				],
+			],
+		];
+
 		// Set header layout for this import.
 		$config['starter-content']['theme_mods']['bgtfw_header_layout'] = [
 			[
@@ -622,11 +561,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 						'key' => 'branding',
 						'align' => 'w',
 						'display' => [
-							[
-								'selector' => '.custom-logo',
-								'display' => 'hide',
-								'title' => __( 'Logo', 'bgtfw' ),
-							],
 							[
 								'selector' => '.site-title',
 								'display' => 'show',
@@ -668,11 +602,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 						'key' => 'branding',
 						'align' => 'w',
 						'display' => [
-							[
-								'selector' => '.custom-logo',
-								'display' => 'hide',
-								'title' => __( 'Logo', 'bgtfw' ),
-							],
 							[
 								'selector' => '.site-title',
 								'display' => 'show',
