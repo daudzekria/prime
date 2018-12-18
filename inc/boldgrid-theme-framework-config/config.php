@@ -41,15 +41,15 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['theme_name'] = 'crio';
 
 		// Primary color for site's title.
-		$config['customizer']['controls']['bgtfw_site_title_color']['default'] = 'color-2';
+		$config['customizer']['controls']['bgtfw_site_title_color']['default'] = 'color-neutral';
 
 		// Site's title typography defaults.
 		$config['customizer']['controls']['bgtfw_site_title_typography']['default'] = array(
-			'font-family' => 'Josefin Sans',
-			'font-size' => '40px',
+			'font-family' => 'Julius Sans One',
+			'font-size' => '44px',
 			'text-transform' => 'uppercase',
-			'line-height' => '1.1',
-			'variant' => '300',
+			'line-height' => '1.5',
+			'variant' => 'regular',
 		);
 
 		// Primary color for site's tagline.
@@ -57,9 +57,9 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 
 		// Site's tagline typography defaults.
 		$config['customizer']['controls']['bgtfw_tagline_typography']['default'] = array(
-			'font-family' => 'Exo 2',
-			'font-size' => '20px',
-			'text-transform' => 'lowercase',
+			'font-family' => 'Open Sans',
+			'font-size' => '14px',
+			'text-transform' => 'none',
 			'line-height' => '1.1',
 			'variant' => 'regular',
 		);
@@ -78,75 +78,61 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 				'format' => 'palette-primary',
 				'neutral-color' => '#ffffff',
 				'colors' => array(
-					'#f95b26',
-					'#212121',
-					'#eaebed',
-					'#f6f6f6',
+					'#a347ff',
 					'#1a1a1a',
+					'#d9d9d9',
+					'#1a1a1a',
+					'#ffffff',
 				),
 			),
 			array(
 				'format' => 'palette-primary',
 				'neutral-color' => '#ffffff',
 				'colors' => array(
-					'#ff2626',
-					'#515151',
-					'#dbdbdb',
-					'#ededed',
-					'#515151',
+					'#bfbfbf',
+					'#000338',
+					'#7c995d',
+					'#000338',
+					'#ffffff',
 				),
 			),
 			array(
 				'format' => 'palette-primary',
-				'neutral-color' => '#f9fdff',
+				'neutral-color' => '#f2fffa',
 				'colors' => array(
-					'#4392f1',
-					'#342e37',
-					'#ffffff',
-					'#f1f0f0',
-					'#342e37',
-				),
-			),
-			array(
-				'format' => 'palette-primary',
-				'neutral-color' => '#f7f4ea',
-				'colors' => array(
-					'#f15152',
-					'#3a2e39',
-					'#ffffff',
-					'#f7e2da',
-					'#3a2e39',
+					'#e58eb2',
+					'#1f2a30',
+					'#d6d6d6',
+					'#1f2a30',
+					'#f2fffa',
 				),
 			),
 			array(
 				'format' => 'palette-primary',
 				'neutral-color' => '#ffffff',
 				'colors' => array(
-					'#17a398',
-					'#33312e',
-					'#e1ebed',
-					'#f6f7f7',
-					'#33312e',
+					'#fea7c4',
+					'#4f4f4f',
+					'#000000',
+					'#4f4f4f',
+					'#ffffff',
+				),
+			),
+			array(
+				'format' => 'palette-primary',
+				'neutral-color' => '#e8e8e8',
+				'colors' => array(
+					'#e8be4c',
+					'#011f3f',
+					'#b2aca2',
+					'#011f3f',
+					'#e8e8e8',
 				),
 			),
 		);
 
 		// Create the custom image attachments used as post thumbnails for pages.
 		$config['starter-content']['attachments'] = array(
-
-			// Custom Logo.
-			'crio-dark' => array(
-				'post_title' => _x( 'Dark Text in Crio Logo', 'crio' ),
-				'file' => 'images/crio-dark.png',
-				'meta_input' => array(
-					'_custom_logo' => true,
-				),
-			),
-
-			'crio-light' => array(
-				'post_title' => _x( 'Light Text in Crio Logo', 'crio' ),
-				'file' => 'images/crio-light.png',
-			),
 
 			// Pages.
 			'contact-featured' => array(
@@ -345,10 +331,7 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_headings_color']['default'] = 'color-2';
 
 		// Header specific colors for background, headings, and links.
-		$config['customizer']['controls']['bgtfw_header_color']['default'] = 'color-neutral';
-
-		// Header Border Color.
-		$config['customizer']['controls']['bgtfw_header_border_color']['default'] = 'color-3';
+		$config['customizer']['controls']['bgtfw_header_color']['default'] = 'color-2';
 
 		// Footer specific colors for background, headings, and links.
 		$config['customizer']['controls']['bgtfw_footer_color']['default'] = 'color-2';
@@ -404,14 +387,14 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['sidebar_meta']['primary-sidebar']['headings_color'] = 'color-2';
 
 		// Header widget row.
-		$config['customizer']['controls']['sidebar_meta']['header-1']['background_color'] = 'color-neutral';
-		$config['customizer']['controls']['sidebar_meta']['header-2']['background_color'] = 'color-neutral';
-		$config['customizer']['controls']['sidebar_meta']['header-3']['background_color'] = 'color-neutral';
-		$config['customizer']['controls']['sidebar_meta']['header-4']['background_color'] = 'color-neutral';
-		$config['customizer']['controls']['sidebar_meta']['header-1']['headings_color'] = 'color-2';
-		$config['customizer']['controls']['sidebar_meta']['header-2']['headings_color'] = 'color-2';
-		$config['customizer']['controls']['sidebar_meta']['header-3']['headings_color'] = 'color-2';
-		$config['customizer']['controls']['sidebar_meta']['header-4']['headings_color'] = 'color-2';
+		$config['customizer']['controls']['sidebar_meta']['header-1']['background_color'] = 'color-2';
+		$config['customizer']['controls']['sidebar_meta']['header-2']['background_color'] = 'color-2';
+		$config['customizer']['controls']['sidebar_meta']['header-3']['background_color'] = 'color-2';
+		$config['customizer']['controls']['sidebar_meta']['header-4']['background_color'] = 'color-2';
+		$config['customizer']['controls']['sidebar_meta']['header-1']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['header-2']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['header-3']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['header-4']['headings_color'] = 'color-neutral';
 		$config['customizer']['controls']['sidebar_meta']['header-1']['links_color'] = 'color-1';
 		$config['customizer']['controls']['sidebar_meta']['header-2']['links_color'] = 'color-1';
 		$config['customizer']['controls']['sidebar_meta']['header-3']['links_color'] = 'color-1';
@@ -422,14 +405,14 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['sidebar_meta']['footer-2']['background_color'] = 'color-2';
 		$config['customizer']['controls']['sidebar_meta']['footer-3']['background_color'] = 'color-2';
 		$config['customizer']['controls']['sidebar_meta']['footer-4']['background_color'] = 'color-2';
-		$config['customizer']['controls']['sidebar_meta']['footer-1']['headings_color'] = 'color-1';
-		$config['customizer']['controls']['sidebar_meta']['footer-2']['headings_color'] = 'color-1';
-		$config['customizer']['controls']['sidebar_meta']['footer-3']['headings_color'] = 'color-1';
-		$config['customizer']['controls']['sidebar_meta']['footer-4']['headings_color'] = 'color-1';
-		$config['customizer']['controls']['sidebar_meta']['footer-1']['links_color'] = 'color-4';
-		$config['customizer']['controls']['sidebar_meta']['footer-2']['links_color'] = 'color-4';
-		$config['customizer']['controls']['sidebar_meta']['footer-3']['links_color'] = 'color-4';
-		$config['customizer']['controls']['sidebar_meta']['footer-4']['links_color'] = 'color-4';
+		$config['customizer']['controls']['sidebar_meta']['footer-1']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['footer-2']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['footer-3']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['footer-4']['headings_color'] = 'color-neutral';
+		$config['customizer']['controls']['sidebar_meta']['footer-1']['links_color'] = 'color-1';
+		$config['customizer']['controls']['sidebar_meta']['footer-2']['links_color'] = 'color-1';
+		$config['customizer']['controls']['sidebar_meta']['footer-3']['links_color'] = 'color-1';
+		$config['customizer']['controls']['sidebar_meta']['footer-4']['links_color'] = 'color-1';
 
 		// Register primary sidebar widgets..
 		$config['starter-content']['widgets']['primary-sidebar'] = array(
@@ -448,53 +431,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			'search',
 			'category',
 			'recent-posts',
-		);
-
-		$config['starter-content']['widgets']['footer-1'] = array(
-			'custom_html' => array(
-
-				// Widget $id -> set when creating a Widget Class
-				'custom_html',
-
-				// Widget $instance -> settings
-				array(
-					'title' => '',
-					'content' => '<img alt="Crio" style="margin:1em 0; width:100px;" src="' . get_parent_theme_file_uri( 'images/crio.svg' ) . '"><p style="margin-bottom: 1em">A WordPress Theme by BoldGrid. Try our other products today.</p><ul><li><a href="https://www.boldgrid.com/boldgrid-backup">BoldGrid Backup</a></li><li><a href="https://www.boldgrid.com/post-and-page-builder">Post and Page Builder</a></li><li><a href="https://www.boldgrid.com/boldgrid-seo">BoldGrid SEO</a></li><li><a href="https://www.boldgrid.com/prototype-transfer-wordpress-site/">Cloud WordPress</a></li></ul>',
-				),
-			),
-		);
-
-		$config['starter-content']['widgets']['footer-2'] = array(
-			'custom_html' => array(
-
-				// Widget $id -> set when creating a Widget Class
-				'custom_html',
-
-				// Widget $instance -> settings
-				array(
-					'title' => '',
-					'content' => '<h3 class="widget-title">Hours</h3><p style="margin-top: 1.3em; margin-bottom: .3em;">Monday - Friday: 8am to 5pm</p><p style="margin-bottom: .3em;">Saturday: 10am to 4pm</p><p>Sunday: 12pm to 4pm</p>',
-				),
-			),
-			'search',
-		);
-
-		$config['starter-content']['widgets']['footer-3'] = array(
-			'recent-posts',
-		);
-
-		$config['starter-content']['widgets']['footer-4'] = array(
-			'custom_html' => array(
-
-				// Widget $id -> set when creating a Widget Class
-				'custom_html',
-
-				// Widget $instance -> settings
-				array(
-					'title' => '',
-					'content' => '<h3 class="widget-title">Contact Info</h3><p style="margin-top: 1.3em; margin-bottom: .3em;">1234 Franconia Way</p><p>New York City, New York 65432</p><p style="margin-top: 1.3em; margin-bottom: .3em;"><span class="color1-color" style="margin-right: .2em; font-weight: bold;">Email:</span><a href="#">support@example.com</a></p><p><span class="color1-color" style="margin-right: .2em; font-weight: bold;">Phone:</span><a href="#">+1 456 152 4652</a></p>',
-				),
-			),
 		);
 
 		// Show excerpts instead of full blog post on blog and archives.
@@ -541,28 +477,28 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 
 		// Site's body typography defaults.
 		$config['customizer']['controls']['bgtfw_body_typography']['default'] = array(
-			'font-family' => 'Exo 2',
-			'font-size' => '16px',
-			'line-height' => '1.8',
+			'font-family' => 'Open Sans',
+			'font-size' => '14px',
+			'line-height' => '1.6',
 			'text-transform' => 'none',
 			'variant' => 'regular',
 		);
 
 		// Site's headings typography defaults.
 		$config['customizer']['controls']['bgtfw_menu_typography_main']['default'] = array(
-			'font-family' => 'Exo 2',
-			'font-size' => '16px',
+			'font-family' => 'Open Sans',
+			'font-size' => '14px',
 			'line-height' => '1.5',
-			'text-transform' => 'none',
+			'text-transform' => 'uppercase',
 			'variant' => 'regular',
 		);
 
-		$config['customizer']['controls']['bgtfw_headings_font_size']['default'] = '16';
+		$config['customizer']['controls']['bgtfw_headings_font_size']['default'] = '20';
 		$config['customizer']['controls']['bgtfw_headings_typography']['default'] = array(
-			'font-family' => 'Josefin Sans',
+			'font-family' => 'Julius Sans One',
 			'line-height' => '1.1',
 			'text-transform' => 'none',
-			'variant' => '300',
+			'variant' => 'regular',
 		);
 
 		if ( ! class_exists( 'Boldgrid_Editor' ) ) {
@@ -611,21 +547,6 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			),
 		);
 
-		$config['customizer']['controls']['bgtfw_header_border']['default'] = [
-			[
-				'media' => [ 'base' ],
-				'unit' => 'px',
-				'isLinked' => false,
-				'type' => 'solid',
-				'values' => [
-					'top' => 0,
-					'left' => 0,
-					'right' => 0,
-					'bottom' => 5,
-				],
-			],
-		];
-
 		$config['customizer']['controls']['bgtfw_blog_margin']['default'] = [
 			[
 				'media' => [ 'base' ],
@@ -642,10 +563,10 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_body_link_decoration']['default'] = 'none';
 
 		// Primary Menu -Link color.
-		$config['customizer']['controls']['bgtfw_menu_items_link_color_main']['default'] = 'color-2';
+		$config['customizer']['controls']['bgtfw_menu_items_link_color_main']['default'] = 'color-neutral';
 
 		// Primary Menu - Active link color.
-		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_main']['default'] = 'color-1';
+		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_main']['default'] = 'color-neutral';
 
 		// Primary Menu - Hover color.
 		$config['customizer']['controls']['bgtfw_menu_items_hover_color_main']['default'] = 'color-1';
@@ -660,16 +581,16 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_footer_center']['default'] = 'color-neutral';
 
 		// Set the default link color of the social menu location.
-		$config['customizer']['controls']['bgtfw_menu_items_link_color_social']['default'] = 'color-1';
+		$config['customizer']['controls']['bgtfw_menu_items_link_color_social']['default'] = 'color-neutral';
 
 		// Set the default link hover state color of the social menu location.
-		$config['customizer']['controls']['bgtfw_menu_items_hover_color_social']['default'] = 'color-3';
+		$config['customizer']['controls']['bgtfw_menu_items_hover_color_social']['default'] = 'color-1';
 
 		// Set the default hover effect for the social menu location.
-		$config['customizer']['controls']['bgtfw_menu_items_hover_effect_social']['default'] = 'hvr-underline-from-center';
+		$config['customizer']['controls']['bgtfw_menu_items_hover_effect_social']['default'] = 'none';
 
 		// Set social menu active link color defaults in case other menu items are assigned to this location.
-		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_social']['default'] = 'color-3';
+		$config['customizer']['controls']['bgtfw_menu_items_active_link_color_social']['default'] = 'color-neutral';
 
 		// Set the social media icon size.
 		$config['social-icons']['size'] = 'large';
@@ -679,7 +600,7 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 
 		// Text Contrast Colors.
 		$config['customizer-options']['colors']['light_text'] = '#ffffff';
-		$config['customizer-options']['colors']['dark_text'] = '#333333';
+		$config['customizer-options']['colors']['dark_text'] = '#1a1a1a';
 
 		// Button Classes
 		$config['components']['buttons']['variables']['button-primary-classes'] = '.btn, .btn-color-1';
@@ -703,12 +624,12 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 						'display' => [
 							[
 								'selector' => '.custom-logo',
-								'display' => 'show',
+								'display' => 'hide',
 								'title' => __( 'Logo', 'bgtfw' ),
 							],
 							[
 								'selector' => '.site-title',
-								'display' => 'hide',
+								'display' => 'show',
 								'title' => __( 'Title', 'bgtfw' ),
 							],
 							[
@@ -719,12 +640,22 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 						],
 					],
 					[
-						'type' => 'boldgrid_menu_main',
+						'type' => 'boldgrid_menu_social',
 						'key' => 'menu',
 						'align' => 'e',
 					],
 				],
 			],
+			[
+				'container' => 'container',
+				'items' => [
+					[
+						'type' => 'boldgrid_menu_main',
+						'key' => 'menu',
+						'align' => 'e',
+					],
+				],
+			],			
 		];
 
 		// Set sticky header layout for this import.
@@ -739,12 +670,12 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 						'display' => [
 							[
 								'selector' => '.custom-logo',
-								'display' => 'show',
+								'display' => 'hide',
 								'title' => __( 'Logo', 'bgtfw' ),
 							],
 							[
 								'selector' => '.site-title',
-								'display' => 'hide',
+								'display' => 'show',
 								'title' => __( 'Title', 'bgtfw' ),
 							],
 							[
@@ -769,35 +700,9 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 				'container' => 'container',
 				'items' => [
 					[
-						'type' => 'bgtfw_sidebar_footer-1',
-						'key' => 'sidebar',
-					],
-					[
-						'type' => 'bgtfw_sidebar_footer-2',
-						'key' => 'sidebar',
-					],
-					[
-						'type' => 'bgtfw_sidebar_footer-3',
-						'key' => 'sidebar',
-					],
-					[
-						'type' => 'bgtfw_sidebar_footer-4',
-						'key' => 'sidebar',
-					],
-				],
-			],
-			[
-				'container' => 'container',
-				'items' => [
-					[
 						'type' => 'boldgrid_display_attribution_links',
 						'key' => 'attribution',
-						'align' => 'w',
-					],
-					[
-						'type' => 'boldgrid_menu_social',
-						'key' => 'menu',
-						'align' => 'e',
+						'align' => 'c',
 					],
 				],
 			],
