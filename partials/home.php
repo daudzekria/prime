@@ -8,8 +8,7 @@
  */
 ?>
 
-<div class="boldgrid-section background-fixed" style="background-image: url('https://wpbex2-dev-nicolec.boldgrid.com/standalone/wp-content/uploads/2018/12/wedge-consulting-imhwpb-dnqcm8hz7bdv4xk.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://wpbex2-dev-nicolec.boldgrid.com/standalone/wp-content/uploads/2018/12/wedge-consulting-imhwpb-dnqcm8hz7bdv4xk.jpg">
-	<div class="container">
+<div class="boldgrid-section background-fixed" style="background-image: url('https://via.placeholder.com/1920x1080'); background-size: cover; background-position: 50% 50%;" data-image-url="https://via.placeholder.com/1920x1080">
 		<div class="row" style="padding-top: 70px; padding-bottom: 70px;">
 			<div class="col-xs-12 col-sm-12 col-md-7"></div>
 			<div class="col-xs-12 col-sm-12 col-md-5 cta-responsive-background" custom-classes="cta-responsive-background">
@@ -130,7 +129,7 @@
 				<p class="" style="margin: 0px 0px -12px;"><i class="fa fa-caret-up bg-inserted-icon color5-color" style="font-size: 36px;" aria-hidden="true"> <span style="display: none;">&nbsp;</span> </i></p>
 				<div class="row">
 					<div class="col-md-12 col-xs-12 col-sm-12">
-						<div class="text-center wow fadeIn bg-box bg-box-square bg-box-cover color-5-text-contrast color5-background-color" style="margin: 0px;">
+						<div class="bg-box bg-box-square bg-box-cover color-5-text-contrast color5-background-color" style="margin: 0px;">
 							<p class="">"Working with Wedge was awesome - we knew that they would offer us a very strong framework and that it would be handled in a very organized and professional way. I couldn't recommend them enough."</p>
 						</div>
 					</div>
@@ -143,7 +142,7 @@
 				<p class="" style="margin: 0px 0px -12px;"><i class="fa fa-caret-up bg-inserted-icon color5-color" style="font-size: 36px;" aria-hidden="true"> <span style="display: none;">&nbsp;</span> </i></p>
 				<div class="row">
 					<div class="col-md-12 col-xs-12 col-sm-12">
-						<div class="text-center wow fadeIn bg-box bg-box-square bg-box-cover color-5-text-contrast color5-background-color" style="margin: 0px;">
+						<div class="bg-box bg-box-square bg-box-cover color-5-text-contrast color5-background-color" style="margin: 0px;">
 							<p class="">"Our production had been ramped up to full time, but the profits just weren't there. We didn't know what we were doing wrong. Wedge showed us an amazing number of areas we could cut our overhead, from more efficient parts layout and energy-efficient lighting to recycling waste and more effective work flow."</p>
 						</div>
 					</div>
