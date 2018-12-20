@@ -21,7 +21,7 @@
 			<div class="col-md-1 col-sm-1 col-xs-12"></div>
 			<div class="col-md-4 col-sm-4 col-xs-12">
 				<h3><i class="fa fa-1x fa-envelope-o"><!-- icon --></i> Email</h3>
-				<a href="mailto:nicolec@inmotionhosting.com">nicolec@inmotionhosting.com</a>
+				<a href="mailto:user@example.com">user@example.com</a>
 				<h3 class=""><i class="fa fa-1x fa-phone"><!-- icon --></i> Phone</h3>
 				777-765-4321
 				<h3 class=""><i class="fa fa-1x fa-map-marker"><!-- icon --></i> Address</h3>
