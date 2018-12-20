@@ -8,26 +8,28 @@
  */
 ?>
 
+<div class="boldgrid-section" style="background-image: url('https://via.placeholder.com/1920x1080'); background-size: cover; background-position: 50% 25%;" data-imhwpb-asset-id="https://via.placeholder.com/1920x1080">
+	<div class="container">
+		<div class="row" style="padding-bottom: 400px;"></div>
+	</div>
+</div>
 <div class="boldgrid-section">
 	<div class="container">
-		<div class="row" style="padding-bottom: 70px;">
-			<div class="col-md-7 col-sm-7 col-xs-12">
-				<p class="">Please use the contact form below, if you have any general questions or requests about our services.</p>
-				<p class="">We will try our best to respond back to you within 24 hours.</p>
-				<div class="boldgrid-shortcode wpforms-shortcode" data-imhwpb-draggable="true">
-				[wpforms id="5"]
-				</div>
+		<div class="row" style="padding-top: 50px;">
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<h3 style="font-size: 32px;">Book A Session</h3>
+				[wpforms id="12"]
 			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12"></div>
-			<div class="col-md-4 col-sm-4 col-xs-12">
-				<h3><i class="fa fa-1x fa-envelope-o"><!-- icon --></i> Email</h3>
-				<a href="mailto:nicolec@inmotionhosting.com">nicolec@inmotionhosting.com</a>
-				<h3 class=""><i class="fa fa-1x fa-phone"><!-- icon --></i> Phone</h3>
-				777-765-4321
-				<h3 class=""><i class="fa fa-1x fa-map-marker"><!-- icon --></i> Address</h3>
-				1234 Your St, City, STATE, 12345
-				<p class="boldgrid-google-maps" style="width: 100%; height: 200px;"><iframe style="width: 100%; height: 100%;" src="https://maps.google.com/maps?q=1234+Your+St%2C+City%2C+STATE%2C+12345&amp;t=m&amp;z=16&amp;output=embed" frameborder="0"></iframe></p>
-				<p class="" style="margin: 2em 0;"><img class="aligncenter" src="https://via.placeholder.com/600x450"></p>
+			<div class="col-md-1 col-sm-12 col-xs-12"></div>
+			<div class="col-md-5 col-xs-12 col-sm-12">
+				<h3 style="font-size: 32px;">Things To Know</h3>
+				<p class="">It takes special people with a knack for seeing the image before it even occurs. That's what we do. Our team tailor makes your images to fit your personality and needs, each and every time.</p>
+				<h4 class=""><i class="fa fa-1x fa-phone"><!-- icon --></i> PHONE</h4>
+				<p class="">777-765-4321</p>
+				<h4 class="" data-font-class="bg-font-family-alt"><i class="fa fa-1x fa-envelope"><!-- icon --></i> EMAIL</h4>
+				<p class=""><a href="mailto:user@example.com">user@example.com</a></p>
+				<h4 class=""><i class="fa fa-1x fa-map-marker"><!-- icon --></i> ADDRESS</h4>
+				<p class="">1234 Your St, City, STATE, 12345</p>
 			</div>
 		</div>
 	</div>

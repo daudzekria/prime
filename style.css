@@ -11,10 +11,3 @@ Text Domain: bgtfw
 Tags: custom-background, custom-colors, custom-menu, editor-style, rtl-language-support, translation-ready, boldgrid-theme-53
 */
 
-/*-----------------------------------------------
-## Typography
------------------------------------------------*/
-.entry-title:first-letter,
-h1.page-title:first-letter {
-	font-size: 200%;
-}

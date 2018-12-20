@@ -31,20 +31,4 @@
 	.bgc-single-image .image-opacity {
 		background-color: rgba( $palette-primary_2, 0.3 );
 	}
-
-	.site-header .site-title > a:first-letter,
-	.site-header .site-title > a:hover:first-letter,
-	.entry-title:first-letter,
-	h1.page-title:first-letter {
-		color: $palette-primary_1;
-	}
-
-	.cta-responsive-background {
-		background-color: rgba( $palette-primary_5, 0.7 );
-	}
-	@media only screen and (min-width: 992px) {
-		.cta-responsive-background {
-			background: none;
-		}
-	}	
 }
