@@ -8,47 +8,48 @@
  */
 ?>
 <div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<h1 class="h2" style="margin-top: 0;">Get a Quote</h1>
+	<div class="container-fluid">
+		<div class="row" style="padding: 4em 3em;">
+			<div class="col-md-6 col-xs-12 col-sm-12" style="padding-right: 4em;">
+				<h1 class="h2">Contact Us</h1>
 				<?php $divider(); ?>
+				<p class="">Vestibulum lobortis vulputate interdum. Integer consectetur nunc ac finibus facilisis. Vestibulum posuere ipsum eu velit tempor finibus. Integer finibus a arcu et convallis. Nulla dapibus tincidunt mauris, eu faucibus nisi molestie sed. Donec vehicula sollicitudin nibh, et varius justo. Integer elementum, diam vel semper consequat, nulla est scelerisque quam, ac ornare elit risus at nulla.</p>
+				<p class="">Nam metus mauris, imperdiet eget pulvinar in, cursus tincidunt ex. Etiam lorem felis, vestibulum eget fringilla vel, consequat et enim. In ut sodales diam, et auctor ex. Donec metus ipsum, egestas a rhoncus auctor, eleifend in risus. Proin congue nulla eget sem imperdiet, nec ultrices libero vestibulum.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button </a></p>
 			</div>
-			<div class="col-md-6 col-sm-12 col-xs-12">
-				<p style="margin-bottom: 2em;">Executing below the line so that we maximise share of voice. Targeting agile and possibly think outside the box. Synchronise big data so that as an end result, we make the logo bigger.</p>
-				<p style="margin-bottom: 2em;">Targeting a holistic approach yet make users into advocates. Taking user stories to, consequently, target the low hanging fruit.</p>
-				<div class="row ">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<div class="bg-img bg-img-3 bg-box bg-box-square bg-box-cover color-4-text-contrast color4-background-color" style="margin-top: 2.2em; padding: 2em 3em;">
-							<p class="color1-color" style="font-weight: 400; margin-bottom: .3em;" data-font-weight="400">Address:</p>
-							<p style="margin-bottom: .3em;">1234 Franconia Way</p>
-							<p class="">New York City, New York 65432</p>
-							<p class="color1-color" style="margin-top: 2.2em; font-weight: 400; margin-bottom: .3em;" data-font-weight="400">Email:</p>
-							<p class=""><a href="#">support@example.com</a></p>
-							<p class="color1-color" style="margin-top: 2.2em; font-weight: 400; margin-bottom: .3em;" data-font-weight="400">Phone:</p>
-							<p class="">+1 456 152 4652</p>
-							<p style="margin-top: 3.1em; "><i class="fa bg-inserted-icon fa-facebook-square color1-color" style="font-size: 22px; margin-right: .9em;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i><i class="fa bg-inserted-icon fa-twitter-square color1-color" style="font-size: 22px; margin-right: .9em;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i><i class="fa bg-inserted-icon fa-google-plus-square color1-color" style="font-size: 22px; margin-right: .9em;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i><i class="fa bg-inserted-icon fa-linkedin-square color1-color" style="font-size: 22px; margin-right: .9em;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i><i class="fa bg-inserted-icon fa-youtube-square color1-color" style="font-size: 22px; margin-right: .9em;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12 col-xs-12">
-				<div class="bg-box" style="padding: 0 0 0 2.2em;">
-					<div class="boldgrid-shortcode wpforms-shortcode" data-imhwpb-draggable="true">
-						<?php echo BoldGrid_Framework_Starter_Content::get_form_shortcode( __DIR__ . '/../json/wpforms/form-1.json' ); ?>
-					</div>
+			<div class="col-md-6 col-xs-12 col-sm-12">
+				<div class="boldgrid-shortcode wpforms-shortcode" data-imhwpb-draggable="true">
+					<?php echo BoldGrid_Framework_Starter_Content::get_form_shortcode( __DIR__ . '/../json/wpforms/form-1.json' ); ?>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="boldgrid-section color5-background-color color-5-text-contrast bg-background-color">
+<div class="boldgrid-section">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 col-xs-12 col-sm-12">
-				<div class="bg-box-cover bg-box-flush bg-box">
-						<p class="boldgrid-google-maps" style="margin: 0 -15px; line-height: 0;"><iframe style="width: 100%; filter: grayscale(100%);" src="https://maps.google.com/maps?q=New+York%2C+NY&amp;t=m&amp;z=16&amp;output=embed" width="2000" height="450" frameborder="0"></iframe></p>
-				</div>
+				<div class="col-md-6 col-xs-12 col-sm-12 bg-background-color color-4-text-contrast color4-background-color" style="padding: 4em;">
+				<h3 class="color3-color">Talk to Us</h3>
+				<?php $divider(); ?>
+				<p class=""><img class="size-full wp-image-749 alignright" style="margin-top: 0px;" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/bakari-mustafa-1092763-unsplash-vert.jpg" alt="" width="200" height="250">Please call <a href="#">777-765-4321</a>. We are here Monday thru Friday from 8am EST to 5pm EST and Saturday from 12pm EST to 5pm EST.</p>
+				<p class="">Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
+			</div>
+			<div class="col-md-6 col-xs-12 col-sm-12 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em;">
+				<h3 class="color3-color">Review Us</h3>
+				<?php $divider(); ?>
+				<p class=""><img class="wp-image-751 size-full alignright" style="margin-top: 0px;" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/drop-the-label-movement-608463-unsplash-vert.jpg" alt="" width="200" height="250">Want to share your experience, good or bad? We are always striving to improve and welcome all feedback. Please <a href="#">contact us today</a>.</p>
+				<p class="">Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="boldgrid-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12 bg-box-flush bg-box-cover">
+				<p class="boldgrid-google-maps" style="margin: 0; line-height: 0;"><iframe style="width: 100%;" src="https://maps.google.com/maps?q=New+York%2C+NY&amp;t=m&amp;z=16&amp;output=embed" width="2000" height="450" frameborder="0"></iframe></p>
 			</div>
 		</div>
 	</div>

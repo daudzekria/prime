@@ -8,108 +8,109 @@
  */
 ?>
 <div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-5 col-xs-12 col-sm-5 align-column-center text-center">
-				<img class="bg-img bg-img-3" src="<?php $image_path( 'about-1.jpg' ) ?>">
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12"></div>
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h1 class="h2" style="margin-top: 0;">What We Do</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-xs-12 col-sm-12 color-neutral-text-contrast color-neutral-background-color" style="padding: 4em;">
+				<h1 class="h2">Heading</h1>
 				<?php $divider(); ?>
-				<p style="margin-bottom: 2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box. Execute cloud computing to, consequently, go viral. Utilise below the
-					fold and then re-target key demographics.</p>
-				<p style="margin-bottom: 2em;">Inform user experience to, consequently, funnel users. Amplifying vertical integration yet be CMSable. Demonstrating customer journeys but target the low hanging fruit.</p>
-				<p style="margin-bottom: 2em;"><a class="button-primary" href="#">Learn More</a></p>
+				<p class="">Vestibulum lobortis vulputate interdum. Integer consectetur nunc ac finibus facilisis. Vestibulum posuere ipsum eu velit tempor finibus. Integer finibus a arcu et convallis. Nulla dapibus tincidunt mauris, eu faucibus nisi molestie sed. Donec vehicula sollicitudin nibh, et varius justo. Integer elementum, diam vel semper consequat, nulla est scelerisque quam, ac ornare elit risus at nulla.</p>
+				<p class="">Nam metus mauris, imperdiet eget pulvinar in, cursus tincidunt ex. Etiam lorem felis, vestibulum eget fringilla vel, consequat et enim. In ut sodales diam, et auctor ex. Donec metus ipsum, egestas a rhoncus auctor, eleifend in risus. Proin congue nulla eget sem imperdiet, nec ultrices libero vestibulum.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button </a></p>
 			</div>
-		</div>
-	</div>
-</div>
-<div class="boldgrid-section" style="color: #fff; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'about-2.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'about-2.jpg' ) ?>" data-bg-overlaycolor="rgba(0, 0, 0, 0.5)">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-4 col-xs-12 col-sm-6 color4-background-color color-4-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '005-value.png' ) ?>" width="61" height="48"></p>
-				<h3 class="h4">Qualified Pros</h3>
-				<p class="">Synchronise branding to disrupt the balance.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 col-sm-6 color3-background-color color-3-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '006-development.png' ) ?>" width="61" height="48"></p>
-				<h3 class="h4">Performance</h3>
-				<p class="">Repurpose big data and possibly gain traction.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 col-sm-12 color4-background-color color-4-text-contrast wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="padding: 2em;">
-				<p><img class="alignleft" src="<?php $image_path( '007-analysis.png' ) ?>" width="48" height="48"></p>
-				<h3 class="h4">Years of Experience</h3>
-				<p class="">Leverage bleeding edge and be on brand.</p>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h2 style="margin-top: 0;">Why Choose Us</h2>
-				<?php $divider(); ?>
-				<p style="margin-bottom: 2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build ROI. Taking dark social to in turn think outside the box.</p>
-				<p style="margin-bottom: 2em;">Execute cloud computing to, consequently, go viral. Utilise below the fold and then re-target key demographics.</p>
-				<div class="row">
-					<div class="col-md-6 col-xs-12 col-sm-12">
-						<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="margin-bottom: 2em; margin-top: 0"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i>Transformation</p>
-						<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="margin: 2em 0;"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"><span style="display: none;">&nbsp;</span></i>Operations &amp; Robotics</p>
-					</div>
-					<div class="col-md-6 col-xs-12 col-sm-12">
-						<div>
-							<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="margin-top: 0"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"> </i>Information Technology</p>
-							<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" style="margin: 2em 0;"><i class="fa bg-inserted-icon fa-check-square-o color1-color" style="margin: 0em 0.8em 0em 0em; font-size: 20px;" aria-hidden="true"> </i>Unlimited Possibilites</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12"></div>
-			<div class="col-md-5 col-xs-12 col-sm-5 text-center">
-				<img class="bg-img bg-img-3" src="<?php $image_path( 'about-3.jpg' ) ?>">
+			<div class="col-md-6 col-xs-12 col-sm-12" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/tuce-210315-unsplash-square.jpg" style="text-align: center; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/tuce-210315-unsplash-square.jpg'); background-size: cover; background-position: 50% 100%;">
 			</div>
 		</div>
 	</div>
 </div>
 <div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="boldgrid-wrap-row boldgrid-slider" data-config='{"arrows":false,"autoplay":true,"autoplaySpeed":"8","dots":true,"infinite":true,"bgOptions":{"arrowsPos":"standard","arrowsOverlay":true,"arrowsBgColor":"1","arrowsIcon":"angle","arrowsSize":"30","dotsPos":"bottom","dotsOverlay":false,"dotsColor":"1","dotsSize":"50"},"colors":{"arrowsBG":{"type":"class","value":"1","text":""},"dotsColor":{"type":"class","value":"1","text":""}}}'>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4.jpg' ) ?>"></p>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-4-text-contrast color4-background-color" style="padding: 4em;">
+				<h4 class="h3 color3-color">Ronnie Morris</h4>
+				<h5 class="h4">Product Management</h5>
+				<?php $divider(); ?>
+				<p class=""><img class="aligncenter wp-image-738 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/joanna-nix-558344-unsplash-400.jpg" alt="" width="400" height="225"></p>
+				<p class="" style="margin-top: 2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui.</p>
+				<p class="bg-social-icons colored" style="margin-top: 1em; font-size: 23px;"><a style="margin-right: 5px; text-decoration: none;" href="#"><i class="fa fa-instagram" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-facebook-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-twitter-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a></p>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em;">
+				<h4 class="h3 color3-color">Lida Watson</h4>
+				<h5 class="h4">Engineer</h5>
+				<?php $divider(); ?>
+				<p class=""><img class="aligncenter wp-image-739 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/chris-murray-491691-unsplash-400.jpg" alt="" width="400" height="225"></p>
+				<p class="" style="margin-top: 2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui.</p>
+				<p class="bg-social-icons colored" style="margin-top: 1em; font-size: 23px;"><a style="margin-right: 5px; text-decoration: none;" href="#"><i class="fa fa-instagram" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-facebook-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-twitter-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a></p>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12 color2-background-color color-2-text-contrast bg-background-color" style="padding: 4em;">
+				<h4 class="h3 color3-color">Fannie Abbott</h4>
+				<h5 class="h4">CEO</h5>
+				<?php $divider(); ?>
+				<p class=""><img class="aligncenter wp-image-740 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/fabio-spinelli-695744-unsplash-400.jpg" alt="" width="400" height="225"></p>
+				<p class="" style="margin-top: 2em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui.</p>
+				<p class="bg-social-icons colored" style="margin-top: 1em; font-size: 23px;"><a style="margin-right: 5px; text-decoration: none;" href="#"><i class="fa fa-instagram" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-facebook-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a> <a style="margin: 0 5px; text-decoration: none;" href="#"><i class="fa fa-twitter-square" aria-hidden="true"><span style="display: none;">&nbsp;</span></i></a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="boldgrid-section background-fixed" style="background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/william-daigneault-608456-unsplash-background2.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/william-daigneault-608456-unsplash-background2.jpg">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12" style="padding: 4em 4em 1em;">
+				<h2 class="">Heading</h2>
+				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12" style="padding: 1em 4em 4em;">
+				<div class="boldgrid-wrap-row boldgrid-slider slick-dots-overlay bg-box-cover" data-config="{&quot;arrows&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:&quot;10&quot;,&quot;dots&quot;:false,&quot;infinite&quot;:true,&quot;bgOptions&quot;:{&quot;arrowsPos&quot;:&quot;top-left&quot;,&quot;arrowsOverlay&quot;:false,&quot;arrowsBgColor&quot;:&quot;rgba(249,91,38,0)&quot;,&quot;arrowsIcon&quot;:&quot;arrow&quot;,&quot;arrowsSize&quot;:&quot;19&quot;,&quot;dotsPos&quot;:&quot;bottom&quot;,&quot;dotsOverlay&quot;:true,&quot;dotsColor&quot;:&quot;#000000&quot;,&quot;dotsSize&quot;:&quot;50&quot;},&quot;colors&quot;:{&quot;arrowsBG&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;rgba(249,91,38,0)&quot;,&quot;text&quot;:&quot;#1a1a1a&quot;},&quot;dotsColor&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;#000000&quot;,&quot;text&quot;:&quot;#ffffff&quot;}}}" style="margin-top: 39px;">
+					<div class="row" style="width: 100%; display: inline-block;">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-257 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/009-options.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Corporate Finance</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Leveraging sprints with the aim to take this offline. Executing transformation mapping with a goal to build and retain ROI. Taking dark social to in turn think outside the box.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Starr Hudson</p>
-							<p style="text-align: right;" class="color1-color">Chief Executive Officer | Box Em Up</p>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-256 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/008-idea.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Marketing</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4b.jpg' ) ?>"></p>
+					<div class="row" style="width: 100%; display: inline-block;">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-265 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/006-development.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Corporate Finance</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Engaging customer experience so that as an end result, we be CMSable. Leverage below the fold and finally gain traction. Generating bleeding edge and creating actionable insights.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Teresa Oliver</p>
-							<p style="text-align: right;" class="color1-color">Brand Expert | Mantell Design</p>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+								<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-266 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/010-start.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Marketing</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-4 col-xs-12 col-sm-4">
-							<p class=""><img class="bg-img bg-img-3" src="<?php $image_path( 'about-4c.jpg' ) ?>"></p>
+					<div class="row" style="width: 100%; display: inline-block;">
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-262 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/005-value.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Advanced Analytics</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
-						<div class="col-md-1 col-sm-1 col-xs-12"></div>
-						<div class="col-md-7 col-sm-7 col-xs-12">
-							<p style="font-size: 1.2em;">Generating best in class in order to improve overall outcomes. Inform outside the box thinking and finally target the low hanging fruit. Repurose big data and possibly gain traction.</p>
-							<p class="h4" style="text-align: right; margin-top: 4.6em;">Leslie Boone</p>
-							<p style="text-align: right;" class="color1-color">Support Staff | Gerwyn Financial</p>
+						<div class="col-md-6 col-sm-12 col-xs-12">
+							<div class="text-center bg-box bg-box-square bg-box-cover" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); margin: 0px; padding: 4em; background-color: rgba(255, 255, 255, 0.8);">
+								<p class="mod-reset"><img class="aligncenter wp-image-251 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/001-business.png" alt="" width="100" height="100"></p>
+								<h3 class="color-2-text-contrast color2-color">Corporate Finance</h3>
+								<p class="color2-color">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -117,44 +118,75 @@
 		</div>
 	</div>
 </div>
-<div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
-	<div class="container">
-		<div class="row row-spacing-lg-top">
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h2 style="margin-top: 0;">Team</h2>
+<div class="boldgrid-section color5-background-color color-5-text-contrast bg-background-color">
+	<div class="container-fluid">
+		<div class="row" style="padding: 4em 3em;">
+			<div class="col-md-6 col-sm-12 col-xs-12" style="padding-right: 4em;">
+				<h2>Our Data</h2>
 				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus.</p>
+				<p class="">Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-			<div class="col-md-6 col-xs-12 col-sm-6 align-column-center">
-				<p class="" style="margin-bottom: 2em;">Target user stories so that we maximise share of voice. Grow cloud computing with the aim to take this offline. Lead integrated tech stacks and above all, target the low hanging fruit.</p>
+			<div class="col-md-6 col-sm-12 col-xs-12 align-column-center" style="padding-right: 4em;">
+				<h4 class="h3">Heading</h4>
+				<div class="row bg-editor-hr-wrap">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+				<div>
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 20%; margin: 0px auto 35px 0px;">
+				</div>
+				</div>
+				</div>
+				<h4 class="h3">Heading</h4>
+				<div class="row bg-editor-hr-wrap">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+				<div>
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 40%; margin: 0px auto 35px 0px;">
+				</div>
+				</div>
+				</div>
+				<h4 class="h3">Heading</h4>
+				<div class="row bg-editor-hr-wrap">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+				<div>
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 60%; margin: 0px auto 35px 0px;">
+				</div>
+				</div>
+				</div>
+				<h4 class="h3">Heading</h4>
+				<div class="row bg-editor-hr-wrap">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+				<div>
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 80%; margin: 0px auto 35px 0px;">
+				</div>
+				</div>
+				</div>				
+				<h4 class="h3">Heading</h4>
+				<div class="row bg-editor-hr-wrap">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+				<div>
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 100%; margin: 0px auto 35px 0px;">
+				</div>
+				</div>
+				</div>
 			</div>
 		</div>
-		<div class="row row-spacing-lg-bottom">
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-5.jpg' ) ?>"></p>
-					<h4>Nathan Counsel</h4>
-					<p class="color1-color">Chief Executive Officer</p>
-				</div>
+	</div>
+</div>
+<div class="boldgrid-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12" style="padding: 4em 4em 1em;">
+				<h2 class="">Recent News</h2>
+				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-6.jpg' ) ?>"></p>
-					<h4>Morten Iverson</h4>
-					<p class="color1-color">Chief Financial Officer</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-7.jpg' ) ?>"></p>
-					<h4>Julie Grave</h4>
-					<p class="color1-color">Technology Director</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6">
-				<div class="text-center bg-box bg-box-square bg-box-cover color-3-text-contrast color3-background-color wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" style="padding: 0.5em 0.5em 1em; margin: 0em -.8em;">
-					<p class=""><img src="<?php $image_path( 'about-8.jpg' ) ?>"></p>
-					<h4>Hans Paulsen</h4>
-					<p class="color1-color">Operations Director</p>
+			<div class="col-md-6 col-sm-12 col-xs-12"></div>
+		</div>
+		<div class="row" style="padding: 1em 3em 4em;">
+			<div class="col-md-12 col-xs-12 col-sm-12">
+				<div class="boldgrid-shortcode" data-imhwpb-draggable="true">
+				[boldgrid_component type="wp_boldgrid_component_postlist" opts="%7B%22widget-boldgrid_component_postlist%5B%5D%5Bselected_post%5D%22%3A%22all%22%2C%22widget-boldgrid_component_postlist%5B%5D%5Bcolumns%5D%22%3A%224%22%2C%22widget-boldgrid_component_postlist%5B%5D%5Blimit%5D%22%3A%228%22%2C%22widget-boldgrid_component_postlist%5B%5D%5Bsorting%5D%22%3A%22newest%22%2C%22widget-boldgrid_component_postlist%5B%5D%5Bshow_title%5D%22%3A1%2C%22widget-boldgrid_component_postlist%5B%5D%5Bexcerpt%5D%22%3A1%2C%22widget-boldgrid_component_postlist%5B%5D%5Bthumbnail%5D%22%3A1%2C%22widget-boldgrid_component_postlist%5B%5D%5Bdate%5D%22%3A0%2C%22widget-boldgrid_component_postlist%5B%5D%5Bauthor%5D%22%3A0%7D"]
 				</div>
 			</div>
 		</div>

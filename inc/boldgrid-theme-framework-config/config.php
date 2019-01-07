@@ -76,7 +76,7 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 			array(
 				'default' => true,
 				'format' => 'palette-primary',
-				'neutral-color' => '#ffffff',
+				'neutral-color' => '#eeeeee',
 				'colors' => array(
 					'#f95b26',
 					'#212121',

@@ -15,7 +15,7 @@ $divider = function() { ?>
 	<div class="row bg-editor-hr-wrap">
 		<div class="col-md-12 col-xs-12 col-sm-12">
 			<div>
-				<hr class="bg-hr color1-color bg-hr-15" style="width: 50px; margin: 0px 80px 40px 0px; border-radius: 100px;">
+				<hr class="bg-hr bg-hr-16 color1-color" style="width: 50%; margin: 0px auto 35px 0px;">
 			</div>
 		</div>
 	</div>

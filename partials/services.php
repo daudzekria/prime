@@ -20,255 +20,268 @@ $post_widget_opts = function () {
 		'widget-boldgrid_component_postlist[][date]' => 0,
 	] ) );
 } ?>
-<div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg-top">
-			<div class="col-md-6 col-sm-6 col-xs-12">
-				<h1 class="h2" style="margin-top: 0;">Winning Process</h1>
+<div class="boldgrid-section color2-background-color color-2-text-contrast bg-background-color">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649856-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649856-unsplash-background.jpg"></div>
+			<div class="col-md-4 col-xs-12 col-sm-6" style="padding: 4em;">
+				<h3 class="">Start A New Path</h3>
 				<?php $divider(); ?>
-				<p class="" style="margin-bottom: 2em;">Leverage integrated tech stacks and above all, build ROI. Targeting user engagement and try to further your reach. Building awareness while remembering to target the low hanging fruit. Growing brand ambassadors with a goal to maximise share of voice.</p>
-				<p style="margin-bottom: 2em;"><a class="button-primary" href="#">Learn More</a></p>
-			</div>
-			<div class="col-md-1 col-sm-1 col-xs-12 align-column-center"></div>
-			<div class="col-md-5 col-sm-5 col-xs-12 align-column-center">
-				<p class="text-center" ><img class="bg-img bg-img-3" src="<?php $image_path( 'services-1.jpg' ) ?>">
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui.</p>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui.</p>
+				<p class="">Building brand integration and possibly funnel users. Building brand integration. Building brand integration and possibly funnel users. Building brand integration.</p>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg-bottom">
-			<div class="col-md-3 col-xs-12 col-sm-6 text-center  wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" style="padding: 2em;">
-				<p class=""><img src="<?php $image_path( '008-idea.png' ) ?>" width="75" height="75"></p>
-				<h3 style="margin-top: 1.25em;">Discover</h3>
-				<hr class="bg-hr color1-color bg-hr-15" style="width: 50px; margin-left: auto; margin-right: auto; margin-top: 0px; border-radius: 100px;">
-				<p class="">Lead bleeding edge and then further your reach. Synchronizing below the line.</p>
+	<div class="container-fluid">
+		<div class="row" style="padding: 4em 3em 1em;">
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<h2 class="">Gallery</h2>
+				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6 text-center  wow fadeIn" data-wow-duration="1s" data-wow-delay="1s" style="padding: 2em;">
-				<p class=""><img src="<?php $image_path( '009-options.png' ) ?>" width="75" height="75"></p>
-				<h3 style="margin-top: 1.25em;">Create</h3>
-				<hr class="bg-hr color1-color bg-hr-15" style="width: 50px; margin-left: auto; margin-right: auto; margin-top: 0px; border-radius: 100px;">
-				<p class="">Lead bleeding edge and then further your reach. Synchronizing below the line.</p>
+			<div class="col-md-6 col-sm-12 col-xs-12"></div>
+		</div>
+		<div class="row" style="padding: 0em 3em 4em;">
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-706 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/lilibeth-linares-795254-unsplash-square-1.jpg" alt="" width="300" height="300"></p>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s" style="padding: 2em;">
-				<p class=""><img src="<?php $image_path( '010-start.png' ) ?>" width="62" height="75"></p>
-				<h3 style="margin-top: 1.25em;">Energy</h3>
-				<hr class="bg-hr color1-color bg-hr-15" style="width: 50px; margin-left: auto; margin-right: auto; margin-top: 0px; border-radius: 100px;">
-				<p class="">Lead bleeding edge and then further your reach. Synchronizing below the line.</p>
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-702 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/alex-read-107907-unsplash-square.jpg" alt="" width="300" height="300"></p>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-6 text-center wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" style="padding: 2em;">
-				<p class=""><img src="<?php $image_path( '011-develop.png' ) ?>" width="75" height="75"></p>
-				<h3 style="margin-top: 1.25em;">Success</h3>
-				<hr class="bg-hr color1-color bg-hr-15" style="width: 50px; margin-left: auto; margin-right: auto; margin-top: 0px; border-radius: 100px;">
-				<p class="">Lead bleeding edge and then further your reach. Synchronizing below the line.</p>
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-701 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649854-unsplash-square.jpg" alt="" width="300" height="300"></p>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-710 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/thomas-millot-351782-unsplash-square.jpg" alt="" width="300" height="300"></p>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-712 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/chuttersnap-330194-unsplash-square.jpg" alt="" width="300" height="300"></p>
+			</div>
+			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-708 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/simone-hutsch-679170-unsplash-square.jpg" alt="" width="4698" height="4698"></p>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="boldgrid-section color4-background-color color-4-text-contrast bg-background-color">
-	<div class="container">
-		<div class="row row-spacing-lg-top">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<h2 style="margin-top: 0;">The Benefit</h2>
-				<?php $divider(); ?>
-			</div>
-		</div>
-		<div class="row row-spacing-lg-bottom">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<div class="boldgrid-shortcode  wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-imhwpb-draggable="true" >
-					[boldgrid_component type="wp_boldgrid_component_postlist" opts="<?php $post_widget_opts(); ?>"]
+<div class="boldgrid-slider boldgrid-section-wrap" data-config="{&quot;arrows&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:&quot;6&quot;,&quot;dots&quot;:false,&quot;infinite&quot;:true,&quot;bgOptions&quot;:{&quot;arrowsPos&quot;:&quot;standard&quot;,&quot;arrowsOverlay&quot;:true,&quot;arrowsBgColor&quot;:&quot;#1a1a1a&quot;,&quot;arrowsIcon&quot;:&quot;angle&quot;,&quot;arrowsSize&quot;:&quot;30&quot;,&quot;dotsPos&quot;:&quot;bottom&quot;,&quot;dotsOverlay&quot;:false,&quot;dotsColor&quot;:&quot;#000000&quot;,&quot;dotsSize&quot;:&quot;50&quot;},&quot;colors&quot;:{&quot;arrowsBG&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;#1a1a1a&quot;,&quot;text&quot;:&quot;#ffffff&quot;},&quot;dotsColor&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;#000000&quot;,&quot;text&quot;:&quot;#ffffff&quot;}}}">
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-634325-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-634325-unsplash-background.jpg">
+		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
+			<div class="row" style="padding: 250px 0px;">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<p class="">&nbsp;</p>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="boldgrid-section" style="color: #fff; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'services-8.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;"
-	data-bg-overlaycolor="rgba(0,0,0,0.5)" data-image-url="<?php $image_path( 'services-8.jpg' ) ?>">
-	<div class="container">
-		<div class="row row-spacing-lg">
-			<div class="col-md-5 col-sm-4 col-xs-12">
-				<h2 style="color: #fff; margin-top: 0;">Glimpse</h2>
-				<?php $divider(); ?>
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/ricardo-gomez-angel-245552-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/ricardo-gomez-angel-245552-unsplash-background.jpg">
+		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
+			<div class="row" style="padding: 250px 0px;">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<p class="">&nbsp;</p>
+				</div>
 			</div>
-			<div class="col-md-7 col-xs-12 col-sm-12">
-				<p style="margin-bottom: 2em;">Executing audience segments and try to be transparent. Generating analytics with a goal to build ROI. Grow stakeholder management so that we surprise and delight.</p>
-				<div class="row bg-editor-hr-wrap">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<div>
-							<hr>
-						</div>
-					</div>
+		</div>
+	</div>
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-537650-unsplash-background.jpg'); background-size: cover; background-position: 50% 65%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-537650-unsplash-background.jpg">
+		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
+			<div class="row" style="padding: 250px 0px;">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<p class="">&nbsp;</p>
 				</div>
-				<div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s" >
-					<div class="col-md-7 col-xs-12 col-sm-12">
-						<p style="font-size: 200%;" >$123 million</p>
-					</div>
-					<div class="col-md-5 col-xs-12 col-sm-12 align-column-center">
-						<div>
-							<p style="font-size: 140%;">in assets</p>
-						</div>
-					</div>
-				</div>
-				<div class="row bg-editor-hr-wrap wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<div>
-							<hr>
-						</div>
-					</div>
-				</div>
-				<div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-					<div class="col-md-7 col-xs-12 col-sm-12">
-						<div>
-							<p style="font-size: 200%;">5,000+</p>
-						</div>
-					</div>
-					<div class="col-md-5 col-xs-12 col-sm-12 align-column-center">
-						<div>
-							<p style="font-size: 140%;">employees nationwide</p>
-						</div>
-					</div>
-				</div>
-				<div class="row bg-editor-hr-wrap wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<hr>
-					</div>
-				</div>
-				<div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-					<div class="col-md-7 col-xs-12 col-sm-12">
-						<p style="font-size: 200%;">10 states</p>
-					</div>
-					<div class="col-md-5 col-xs-12 col-sm-12 align-column-center">
-						<div>
-							<p style="font-size: 140%;">where we operate</p>
-						</div>
-					</div>
-				</div>
-				<div class="row bg-editor-hr-wrap wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<hr>
-					</div>
-				</div>
-				<div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
-					<div class="col-md-7 col-xs-12 col-sm-12">
-						<p style="font-size: 200%;">45 funds</p>
-					</div>
-					<div class="col-md-5 col-xs-12 col-sm-12 align-column-center">
-						<div>
-							<p style="font-size: 140%;">sponsored by us</p>
-						</div>
-					</div>
-				</div>
-				<div class="row bg-editor-hr-wrap  wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<hr>
-					</div>
-				</div>
-				<div class="row  wow fadeIn" data-wow-duration="1s" data-wow-delay="2.5s">
-					<div class="col-md-7 col-xs-12 col-sm-12">
-						<p style="font-size: 200%;">30 years</p>
-					</div>
-					<div class="col-md-5 col-xs-12 col-sm-12 align-column-center">
-						<div>
-							<p style="font-size: 140%;">of experience</p>
-						</div>
-					</div>
-				</div>
-				<div class="row bg-editor-hr-wrap  wow fadeIn" data-wow-duration="1s" data-wow-delay="2.5s">
-					<div class="col-md-12 col-xs-12 col-sm-12">
-						<hr>
-					</div>
+			</div>
+		</div>
+	</div>
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/charl-van-rooy-548103-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/charl-van-rooy-548103-unsplash-background.jpg">
+		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
+			<div class="row" style="padding: 250px 0px;">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<p class="">&nbsp;</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 <div class="boldgrid-section">
-	<div class="container">
-		<div class="row row-spacing-lg-top">
-			<div class="col-md-12 col-sm-12 col-xs-12">
-				<h2 style="margin-top: 0;">Pricing Table</h2>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-4-text-contrast color4-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg" data-bg-overlaycolor="rgba(0,0,0,0.5)">
+				<h3 class="h2 color3-color">Service 1</h3>
 				<?php $divider(); ?>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/mattias-russo-larsson-553344-unsplash.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/mattias-russo-larsson-553344-unsplash.jpg" data-bg-overlaycolor="rgba(0,0,0,0.5)">
+				<h3 class="h2 color3-color">Service 2</h3>
+				<?php $divider(); ?>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-12 color2-background-color color-2-text-contrast bg-background-color" style="padding: 4em; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230172-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230172-unsplash-background.jpg">
+				<h3 class="h2 color3-color">Service 3</h3>
+				<?php $divider(); ?>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
+				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="tmpl-pricing_tables-9 boldgrid-section dynamic-gridblock">
-	<div class="container">
-		<div class="row row-spacing-lg-bottom">
-			<div class="col-md-3 col-xs-12 col-sm-3 text-center align-column-center">
-				<div class="bg-box-flush bg-box-cover basic product-type color-neutral-background-color color-neutral-text-contrast bg-background-color bg-box" style="margin-top: .6em; margin-bottom: .6em;">
-					<p class="product-name">STANDARD</p>
-					<p class="price color2-color" style="background-color: rgba(0,0,0,.05);margin-top: 0;"> <span style="font-size: 1.5em; position: relative; top: -.9em;">$</span> <span style="font-size: 2.5em;">39</span> <span style="margin-top: 0; font-size: .9em; font-style: italic; display: block;">Yearly</span>                        </p>
-					<ul class="feature-list bg-list">
-						<li>Feature 1</li>
-						<li>Feature 2</li>
-						<li>Feature 3</li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li>
-							<div class="rating-icons-1"> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i>                                <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> </div>
-						</li>
-					</ul>
-					<p style="background-color: rgba(0,0,0,.05);" class="action"> <a class="btn-color-3 btn btn-capitalize btn-regular" href="#">Buy Now</a> </p>
+<div class="boldgrid-section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-sm-12 col-xs-12" style="padding: 4em 4em 2em;">
+				<h2 class="">Testimonials</h2>
+				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12"></div>
+		</div>
+		<div class="row" style="padding: 0em 3em 4em;">
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<p class=""><img class="bg-img alignnone wp-image-591 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/amanda-hortiz-1086760-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Nannie Garcia</p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="color3-background-color color-3-text-contrast bg-background-color bg-box color1-border-color" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); padding: 15px 10px; border-top: 3px solid; margin-bottom: 1em;">
+							<p class="" style="font-style: italic; margin: 1em;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-3 text-center align-column-center">
-				<div class="bg-box-flush bg-box-cover basic product-type color-neutral-background-color color-neutral-text-contrast bg-background-color bg-box" style="margin-top: .6em; margin-bottom: .6em;">
-					<p class="product-name">BUSINESS</p>
-					<p class="price color2-color" style="background-color: rgba(0,0,0,.05);margin-top: 0;"> <span style="font-size: 1.5em; position: relative; top: -.9em;">$</span> <span style="font-size: 2.5em;">59</span> <span style="margin-top: 0; font-size: .9em; font-style: italic; display: block;">Yearly</span>                        </p>
-					<ul class="feature-list bg-list">
-						<li>Feature 1</li>
-						<li>Feature 2</li>
-						<li>Feature 3</li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li>
-							<div class="rating-icons-1"> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color"
-									aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i>                                </div>
-						</li>
-					</ul>
-					<p style="background-color: rgba(0,0,0,.05);" class="action"> <a class="btn-color-3 btn btn-capitalize btn-regular" href="#">Buy Now</a> </p>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<p class=""><img class="bg-img aligncenter wp-image-741 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/tyler-nix-604224-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Elliot Gonzales</p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="color3-background-color color-3-text-contrast bg-background-color bg-box color1-border-color" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); padding: 15px 10px; border-top: 3px solid; margin-bottom: 1em;">
+							<p class="" style="font-style: italic; margin: 1em;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-3 text-center align-column-center bg-box-border-thin color3-border-color" style="position:relative; z-index:1">
-				<div class="bg-box-flush bg-box-cover featured product-type color-neutral-background-color color-neutral-text-contrast bg-background-color bg-box wow pulse" data-wow-duration="2.5s" data-wow-delay="1s">
-					<p class="product-name">PREMIUM</p>
-					<p class="price color2-color" style="background-color: rgba(0,0,0,.05);margin-top: 0;"> <span style="font-size: 1.5em; position: relative; top: -.9em;">$</span> <span style="font-size: 2.5em;">79</span> <span style="margin-top: 0; font-size: .9em; font-style: italic; display: block;">Yearly</span>                        </p>
-					<ul class="feature-list bg-list">
-						<li>Feature 1</li>
-						<li>Feature 2</li>
-						<li>Feature 3</li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-remove" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li>
-							<div class="rating-icons-1"> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color"
-									aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star" aria-hidden="true"><span style="display:none;">&nbsp;</span></i>                                </div>
-						</li>
-					</ul>
-					<p style="background-color: rgba(0,0,0,.05);" class="action"> <a class="button-primary" href="#">Buy Now</a> </p>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<p class=""><img class="bg-img aligncenter wp-image-593 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/lucas-sankey-378674-unsplash-horiz.jpg" alt="" width="750" height="500"></p>
+				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Phillip Keller</p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="color3-background-color color-3-text-contrast bg-background-color bg-box color1-border-color" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); padding: 15px 10px; border-top: 3px solid; margin-bottom: 1em;">
+							<p class="" style="font-style: italic; margin: 1em;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-12 col-sm-3 text-center align-column-center">
-				<div class="bg-box-flush bg-box-cover basic product-type color-neutral-background-color color-neutral-text-contrast bg-background-color bg-box" style="margin-top: .6em; margin-bottom: .6em;">
-					<p class="product-name">ULTIMATE</p>
-					<p class="price color2-color" style="background-color: rgba(0,0,0,.05);margin-top: 0;"> <span style="font-size: 1.5em; position: relative; top: -.9em;">$</span> <span style="font-size: 2.5em;">109</span> <span style="margin-top: 0; font-size: .9em; font-style: italic; display: block;">Yearly</span>                        </p>
-					<ul class="feature-list bg-list">
-						<li>Feature 1</li>
-						<li>Feature 2</li>
-						<li>Feature 3</li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li><i class="fa fa-check color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i></li>
-						<li>
-							<div class="rating-icons-1"> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color"
-									aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i> <i class="fa fa-star color1-color" aria-hidden="true"><span style="display:none;">&nbsp;</span></i>                                </div>
-						</li>
-					</ul>
-					<p style="background-color: rgba(0,0,0,.05);" class="action"> <a class="btn-color-3 btn btn-capitalize btn-regular" href="#">Buy Now</a> </p>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+				<p class=""><img class="bg-img aligncenter wp-image-744 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/talen-de-st-croix-621866-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Kathy Nelson</p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="color3-background-color color-3-text-contrast bg-background-color bg-box color1-border-color" style="box-shadow: 0 0 4px 2px rgba(0,0,0,.05); padding: 15px 10px; border-top: 3px solid; margin-bottom: 1em;">
+							<p class="" style="font-style: italic; margin: 1em;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="boldgrid-section color5-background-color color-5-text-contrast bg-background-color background-fixed" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg" style="background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;">
+	<div class="container-fluid">
+		<div class="row" style="padding: 4em 3em 1em;">
+			<div class="col-md-6 col-xs-12 col-sm-12" style="padding-right: 4em;">
+				<h2 class="">Pricing</h2>
+				<?php $divider(); ?>
+				<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu dignissim tortor, sit amet bibendum lacus. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12"></div>
+		</div>
+		<div class="row" style="padding: 0 3em 4em;">
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center" style="padding-top: 1em;">
+				<div class="text-center bg-background-color bg-box color-2-text-contrast color2-background-color">
+				<h3 class="">Level 1</h3>
+					<div class="row bg-editor-hr-wrap">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+					<div>
+					<hr class="bg-hr bg-hr-16 color1-color" style="margin: 5px -15px 20px;">
+					</div>
+					</div>
+					</div>
+					<p class="" style="margin: 0em; font-size: 36px;">$5</p>
+					<p class="" style="margin-bottom: 2em;">per month</p>
+					<p class=""><i class="fa-fw fa fa-envelope-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-map-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-cubes" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-download" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-folder-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-globe" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><a class="btn-color-1 btn" style="margin-top: 2em;" href="#" shape="">Sign Up</a></p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center" style="padding-top: 1em;">
+				<div class="text-center bg-background-color bg-box color-2-text-contrast color2-background-color">
+					<h3 class="">Level 2</h3>
+					<div class="row bg-editor-hr-wrap">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+					<div>
+					<hr class="bg-hr bg-hr-16 color1-color" style="margin: 5px -15px 20px;">
+					</div>
+					</div>
+					</div>
+					<p class="" style="margin: 0em; margin-bottom: 0; font-size: 36px;">$7</p>
+					<p class="" style="margin-bottom: 2em;">per month</p>
+					<p class=""><i class="fa-fw fa fa-envelope-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-map-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-cubes" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-download" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-folder-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-globe" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><a class="btn-color-1 btn" style="margin-top: 2em;" href="#" shape="">Sign Up</a></p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center" style="padding-top: 1em;">
+				<div class="text-center bg-background-color bg-box color-2-text-contrast color2-background-color">
+					<h3 class="">Level 3</h3>
+					<div class="row bg-editor-hr-wrap">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+					<div>
+					<hr class="bg-hr bg-hr-16 color1-color" style="margin: 5px -15px 20px;">
+					</div>
+					</div>
+					</div>
+					<p class="" style="margin: 0em; margin-bottom: 0; font-size: 36px;">$9</p>
+					<p class="" style="margin-bottom: 2em;">per month</p>
+					<p class=""><i class="fa-fw fa fa-envelope-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-map-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-cubes" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-download" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-folder-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-globe" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><a class="btn-color-1 btn" style="margin-top: 2em;" href="#" shape="">Sign Up</a></p>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center" style="padding-top: 1em;">
+				<div class="text-center bg-background-color bg-box color-2-text-contrast color2-background-color">
+					<h3 class="">Level 4</h3>
+					<div class="row bg-editor-hr-wrap">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+					<div>
+					<hr class="bg-hr bg-hr-16 color1-color" style="margin: 5px -15px 20px;">
+					</div>
+					</div>
+					</div>
+					<p class="" style="margin: 0em; margin-bottom: 0; font-size: 36px;">$11</p>
+					<p class="" style="margin-bottom: 2em;">per month</p>
+					<p class=""><i class="fa-fw fa fa-envelope-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-map-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-cubes" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-download" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-folder-open-o" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><i class="fa-fw fa fa-globe" aria-hidden="true"><span style="display: none;">&nbsp;</span></i> Feature Description</p>
+					<p class=""><a class="btn-color-1 btn" style="margin-top: 2em;" href="#" shape="">Sign Up</a></p>
 				</div>
 			</div>
 		</div>
