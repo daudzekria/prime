@@ -23,7 +23,7 @@ $post_widget_opts = function () {
 <div class="boldgrid-section color2-background-color color-2-text-contrast bg-background-color">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-8 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649856-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649856-unsplash-background.jpg"></div>
+			<div class="col-md-8 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em; background-image: url('<?php $image_path( 'services1.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'services1.jpg' ) ?>"></div>
 			<div class="col-md-4 col-xs-12 col-sm-6" style="padding: 4em;">
 				<h3 class="">Start A New Path</h3>
 				<?php $divider(); ?>
@@ -46,28 +46,29 @@ $post_widget_opts = function () {
 		</div>
 		<div class="row" style="padding: 0em 3em 4em;">
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-706 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/lilibeth-linares-795254-unsplash-square-1.jpg" alt="" width="300" height="300"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services2.jpg' ) ?>"></p>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-702 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/alex-read-107907-unsplash-square.jpg" alt="" width="300" height="300"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services3.jpg' ) ?>"></p>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-701 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/yun-xu-649854-unsplash-square.jpg" alt="" width="300" height="300"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services4.jpg' ) ?>"></p>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-710 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/thomas-millot-351782-unsplash-square.jpg" alt="" width="300" height="300"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services5.jpg' ) ?>"></p>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-712 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/chuttersnap-330194-unsplash-square.jpg" alt="" width="300" height="300"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services6.jpg' ) ?>"></p>
 			</div>
 			<div class="col-md-2 col-sm-4 col-xs-4 text-center" style="padding-top: 1em;">
-				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter wp-image-708 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/simone-hutsch-679170-unsplash-square.jpg" alt="" width="4698" height="4698"></p>
+				<p class="mod-reset"><img class="bg-img bg-img-square aligncenter" src="<?php $image_path( 'services7.jpg' ) ?>"></p>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="boldgrid-slider boldgrid-section-wrap" data-config="{&quot;arrows&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:&quot;6&quot;,&quot;dots&quot;:false,&quot;infinite&quot;:true,&quot;bgOptions&quot;:{&quot;arrowsPos&quot;:&quot;standard&quot;,&quot;arrowsOverlay&quot;:true,&quot;arrowsBgColor&quot;:&quot;#1a1a1a&quot;,&quot;arrowsIcon&quot;:&quot;angle&quot;,&quot;arrowsSize&quot;:&quot;30&quot;,&quot;dotsPos&quot;:&quot;bottom&quot;,&quot;dotsOverlay&quot;:false,&quot;dotsColor&quot;:&quot;#000000&quot;,&quot;dotsSize&quot;:&quot;50&quot;},&quot;colors&quot;:{&quot;arrowsBG&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;#1a1a1a&quot;,&quot;text&quot;:&quot;#ffffff&quot;},&quot;dotsColor&quot;:{&quot;type&quot;:&quot;color&quot;,&quot;value&quot;:&quot;#000000&quot;,&quot;text&quot;:&quot;#ffffff&quot;}}}">
-	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-634325-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-634325-unsplash-background.jpg">
+
+<div class="boldgrid-wrap-row boldgrid-slider" data-config='{"arrows":true,"autoplay":true,"autoplaySpeed":"6","dots":false,"infinite":true,"bgOptions":{"arrowsPos":"standard","arrowsOverlay":true,"arrowsBgColor":"2","arrowsIcon":"angle","arrowsSize":"30","dotsPos":"bottom","dotsOverlay":false,"dotsColor":"2","dotsSize":"50"},"colors":{"arrowsBG":{"type":"class","value":"2","text":""},"dotsColor":{"type":"class","value":"2","text":""}}}'>
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('<?php $image_path( 'service-slider1.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'service-slider1.jpg' ) ?>">
 		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
 			<div class="row" style="padding: 250px 0px;">
 				<div class="col-md-12 col-xs-12 col-sm-12">
@@ -76,7 +77,7 @@ $post_widget_opts = function () {
 			</div>
 		</div>
 	</div>
-	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/ricardo-gomez-angel-245552-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/ricardo-gomez-angel-245552-unsplash-background.jpg">
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('<?php $image_path( 'service-slider2.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'service-slider2.jpg' ) ?>">
 		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
 			<div class="row" style="padding: 250px 0px;">
 				<div class="col-md-12 col-xs-12 col-sm-12">
@@ -85,7 +86,7 @@ $post_widget_opts = function () {
 			</div>
 		</div>
 	</div>
-	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-537650-unsplash-background.jpg'); background-size: cover; background-position: 50% 65%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/natalya-letunova-537650-unsplash-background.jpg">
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('<?php $image_path( 'service-slider3.jpg' ) ?>'); background-size: cover; background-position: 50% 65%;" data-image-url="<?php $image_path( 'service-slider3.jpg' ) ?>">
 		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
 			<div class="row" style="padding: 250px 0px;">
 				<div class="col-md-12 col-xs-12 col-sm-12">
@@ -94,7 +95,7 @@ $post_widget_opts = function () {
 			</div>
 		</div>
 	</div>
-	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/charl-van-rooy-548103-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/charl-van-rooy-548103-unsplash-background.jpg">
+	<div class="boldgrid-section" style="width: 100%; display: inline-block; background-image: url('<?php $image_path( 'service-slider4.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'service-slider4.jpg' ) ?>">
 		<div class="container" style="padding-left: 44.4px; padding-right: 44.4px;">
 			<div class="row" style="padding: 250px 0px;">
 				<div class="col-md-12 col-xs-12 col-sm-12">
@@ -107,21 +108,21 @@ $post_widget_opts = function () {
 <div class="boldgrid-section">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-4-text-contrast color4-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg" data-bg-overlaycolor="rgba(0,0,0,0.5)">
+			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-2-text-contrast color2-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'services8.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'services8.jpg' ) ?>" data-bg-overlaycolor="rgba(0,0,0,0.5)">
 				<h3 class="h2 color3-color">Service 1</h3>
 				<?php $divider(); ?>
 				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
 				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
 				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
 			</div>
-			<div class="col-md-4 col-xs-12 col-sm-6 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/mattias-russo-larsson-553344-unsplash.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/mattias-russo-larsson-553344-unsplash.jpg" data-bg-overlaycolor="rgba(0,0,0,0.5)">
+			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-2-text-contrast color2-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'services9.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'services9.jpg' ) ?>" data-bg-overlaycolor="rgba(0,0,0,0.5)">
 				<h3 class="h2 color3-color">Service 2</h3>
 				<?php $divider(); ?>
 				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
 				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
 				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
 			</div>
-			<div class="col-md-4 col-xs-12 col-sm-12 color2-background-color color-2-text-contrast bg-background-color" style="padding: 4em; background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230172-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230172-unsplash-background.jpg">
+			<div class="col-md-4 col-xs-12 col-sm-6 bg-background-color color-2-text-contrast color2-background-color" style="padding: 4em; background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php $image_path( 'services10.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;" data-image-url="<?php $image_path( 'services10.jpg' ) ?>" data-bg-overlaycolor="rgba(0,0,0,0.5)">
 				<h3 class="h2 color3-color">Service 3</h3>
 				<?php $divider(); ?>
 				<p class="">Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat. Duis lacinia condimentum nulla eget aliquet. Etiam id justo faucibus, accumsan ante hendrerit, vehicula velit. Integer sapien erat.</p>
@@ -143,7 +144,7 @@ $post_widget_opts = function () {
 		</div>
 		<div class="row" style="padding: 0em 3em 4em;">
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-				<p class=""><img class="bg-img alignnone wp-image-591 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/amanda-hortiz-1086760-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class=""><img src="<?php $image_path( 'services11.jpg' ) ?>"></p>
 				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Nannie Garcia</p>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
@@ -154,7 +155,7 @@ $post_widget_opts = function () {
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-				<p class=""><img class="bg-img aligncenter wp-image-741 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/tyler-nix-604224-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class=""><img src="<?php $image_path( 'services12.jpg' ) ?>"></p>
 				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Elliot Gonzales</p>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
@@ -165,7 +166,7 @@ $post_widget_opts = function () {
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-				<p class=""><img class="bg-img aligncenter wp-image-593 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/lucas-sankey-378674-unsplash-horiz.jpg" alt="" width="750" height="500"></p>
+				<p class=""><img src="<?php $image_path( 'services13.jpg' ) ?>"></p>
 				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Phillip Keller</p>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
@@ -176,7 +177,7 @@ $post_widget_opts = function () {
 				</div>
 			</div>
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-				<p class=""><img class="bg-img aligncenter wp-image-744 size-full" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/talen-de-st-croix-621866-unsplash-horiz.jpg" alt="" width="900" height="600"></p>
+				<p class=""><img src="<?php $image_path( 'services14.jpg' ) ?>"></p>
 				<p class="h3" style="margin-top: 2em; margin-bottom: 1em;">Kathy Nelson</p>
 				<div class="row">
 					<div class="col-md-12 col-sm-12 col-xs-12">
@@ -189,7 +190,7 @@ $post_widget_opts = function () {
 		</div>
 	</div>
 </div>
-<div class="boldgrid-section color5-background-color color-5-text-contrast bg-background-color background-fixed" data-image-url="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg" style="background-image: url('https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/11/tobias-van-schneider-230170-unsplash-background.jpg'); background-size: cover; background-position: 50% 50%;">
+<div class="boldgrid-section color5-background-color color-5-text-contrast bg-background-color background-fixed" data-image-url="<?php $image_path( 'services1.jpg' ) ?>" style="background-image: url('<?php $image_path( 'services10.jpg' ) ?>'); background-size: cover; background-position: 50% 50%;">
 	<div class="container-fluid">
 		<div class="row" style="padding: 4em 3em 1em;">
 			<div class="col-md-6 col-xs-12 col-sm-12" style="padding-right: 4em;">

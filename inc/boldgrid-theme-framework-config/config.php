@@ -516,7 +516,7 @@ if ( ! function_exists( 'boldgrid_prime_framework_config' ) ) {
 		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_position']['default'] = 'above';
 
 		// Set post list's featured image height.
-		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_height']['default'] = 20;
+		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_height']['default'] = 10;
 
 		// Set post list's featured image width.
 		$config['customizer']['controls']['bgtfw_blog_post_header_feat_image_width']['default'] = 100;

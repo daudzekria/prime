@@ -31,14 +31,14 @@
 				<div class="col-md-6 col-xs-12 col-sm-12 bg-background-color color-4-text-contrast color4-background-color" style="padding: 4em;">
 				<h3 class="color3-color">Talk to Us</h3>
 				<?php $divider(); ?>
-				<p class=""><img class="size-full wp-image-749 alignright" style="margin-top: 0px;" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/bakari-mustafa-1092763-unsplash-vert.jpg" alt="" width="200" height="250">Please call <a href="#">777-765-4321</a>. We are here Monday thru Friday from 8am EST to 5pm EST and Saturday from 12pm EST to 5pm EST.</p>
+				<p class=""><img style="margin-top: 0px;" class="alignright" src="<?php $image_path( 'contact1.jpg' ) ?>">Please call <a href="#">777-765-4321</a>. We are here Monday thru Friday from 8am EST to 5pm EST and Saturday from 12pm EST to 5pm EST.</p>
 				<p class="">Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
 			</div>
 			<div class="col-md-6 col-xs-12 col-sm-12 color5-background-color color-5-text-contrast bg-background-color" style="padding: 4em;">
 				<h3 class="color3-color">Review Us</h3>
 				<?php $divider(); ?>
-				<p class=""><img class="wp-image-751 size-full alignright" style="margin-top: 0px;" src="https://demo2.boldgrid.com/trial-u97v4t61/wp-content/uploads/2018/10/drop-the-label-movement-608463-unsplash-vert.jpg" alt="" width="200" height="250">Want to share your experience, good or bad? We are always striving to improve and welcome all feedback. Please <a href="#">contact us today</a>.</p>
+				<p class=""><img style="margin-top: 0px;" class="alignright" src="<?php $image_path( 'contact2.jpg' ) ?>">Want to share your experience, good or bad? We are always striving to improve and welcome all feedback. Please <a href="#">contact us today</a>.</p>
 				<p class="">Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu faucibus leo, non pharetra dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 				<p class="" style="margin-top: 2em;"><a class="btn btn-color-1" href="#">Button</a></p>
 			</div>
